@@ -7,7 +7,7 @@ class Database
     private $password;
 
     private $conn = null;
-    private static $instance = null;
+    private static $instance;
 
     // Singleton konstruktor
     private function __construct() 
